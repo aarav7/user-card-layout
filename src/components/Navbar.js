@@ -1,6 +1,6 @@
 import styles from '../css/Navbar.module.css';
 import { useContext } from 'react'
-import UserContext from '../Context/user-context'
+import UserContext from '../context/user-context'
 
 const Navbar = () => {
 

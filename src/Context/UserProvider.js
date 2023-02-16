@@ -11,23 +11,22 @@ const reducer = (state, action) => {
 
     if (action.type === 'GET_USERS') {
         return {
-            users: state.users,
+            ...state,
             isLoading: true,
-            error: null
         }
     }
 
     if (action.type === 'GOT_USERS') {
         return {
+            ...state,
             users: action.data,
             isLoading: false,
-            error: null
         }
     }
 
     if (action.type === 'ERROR') {
         return {
-            users: state.users,
+            ...state,
             isLoading: false,
             error: action.errMsg
         }
@@ -50,9 +49,7 @@ const UserProvider = props => {
     }
 
     const userContext = {
-        users: state.users,
-        isLoading: state.isLoading,
-        error: state.error,
+        ...state,
         getUsers,
         gotUsers,
         errors

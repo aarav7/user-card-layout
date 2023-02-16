@@ -1,6 +1,6 @@
-import Navbar from "./Layout/Navbar"
-import Main from "./Layout/Main"
-import UserProvider from "./Context/UserProvider"
+import Navbar from "./components/Navbar"
+import Main from "./components/Main"
+import UserProvider from "./context/UserProvider"
 
 function App() {
   return (
