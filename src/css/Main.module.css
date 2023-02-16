@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans&family=Poppins:wght@300&display=swap');
+
+.main{
+    width: 75%;
+    min-height: 500px;
+    background-color: #FCF6F4;
+    margin-top: 50px;
+    margin-inline: auto;
+    margin-bottom: 50px;
+    padding:2%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #3d4f50;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    gap: 30px;
+}
